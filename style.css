@@ -1,0 +1,47 @@
+* {
+    margin : 5px;
+    padding: 5px;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.book-container {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    border: solid 1px grey;
+    
+}
+
+.bookDiv {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 4);
+    
+
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;     
+
+}
